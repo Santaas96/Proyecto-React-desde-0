@@ -1,0 +1,50 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "document": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "overrides": [
+        {
+            "files":[
+                "*.jsx",
+                "*.js"
+            ]
+        }
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
+        "linebreak-style": [0, "windows"],
+        "react/function-component-definition": [
+            2,
+            {
+              "namedComponents": "arrow-function",
+              "unnamedComponents": "arrow-function"
+            }
+          ],
+          "indent": 0,
+          "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }],
+          "comma-dangle": "off",
+          "arrow-body-style":0,
+          "react/prop-types":0,
+          "spaced-comment": [ 0, "always"]
+        
+    }
+}
