@@ -3,6 +3,7 @@
 
 Ejercitacion  de configuracion integra de Webpack, Babel y ESlint en proyecto React
 
-Deploy realizado en Netlify
+Deploy realizado en Netlify: https://tranquil-tanuki-d56e06.netlify.app/
+
 
 
